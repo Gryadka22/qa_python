@@ -1,1 +1,26 @@
 # qa_python
+test_add_new_book_add_two_books проверяет, что метод add_new_book добавляет 2 книги в список books_genre
+
+test_add_new_book_name_exceeds_41_characters проверяет работу метода add_new_book при превышении лимита символов на название книги
+
+test_set_book_genre_book_and_genre_specified проверяет правильность присвоения жанра книге методом set_book_genre
+
+test_set_book_genre_book_not_defined проверяет set_book_genre при отсутствии названия книги
+
+test_set_book_genre_genre_not_existing проверяет set_book_genre при отсутствии жанра
+
+test_get_book_genre проверяет правильность выдачи жанра книги по названию
+
+test_get_book_genre проверяет правильность выведения списка книг с определённым жанром
+
+test_get_books_genre_returns_full_list проверяет правильность выведения общего списка добавленных книг
+
+test_get_books_for_children_book_appended_in_books_for_children проверяет что книга для детей добавлена в список для детей
+
+test_get_books_for_children_book_not_appended_in_books_for_children проверяет что неподходящая книга не добавлена в список
+
+test_book_in_favourites_check_added_in_favourites проверяет что книга добавлена в избранное
+
+test_delete_book_from_favorites_check_deleted_from_favourites проверяет что книга удалена из избранного
+
+test_get_list_of_favorites_books_two_books_added_in_favourites проверяет что метод возвращает полный список избранных книг, которые были добавлены
